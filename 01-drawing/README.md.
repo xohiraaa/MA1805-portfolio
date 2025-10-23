@@ -1,0 +1,13 @@
+# 01-Forest Speaker (drawing)
+
+What it is:
+Three green circles representing speakers on a dark background. The slight shake gives a sense of bass and
+life without sound. 
+
+How I made it:
+I used createcanvas, background, fill, and three ellipse shapes. Inside draw() I added small random
+movement. A typo once broke the code which taught me how precise coding needs to be.
+
+Why this choice:
+I called it "Forest Speaker" for its green tones,organic yet mechanical. It works as an abstract emoji for 
+sound and hints at the themes of repetition and control I'll explore later.
