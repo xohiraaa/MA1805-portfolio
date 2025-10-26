@@ -1,4 +1,5 @@
 let t = 0; // 
+const SPEED = 0.004
 
 function setup() {
   createCanvas(500,500);
@@ -19,6 +20,6 @@ function draw() {
   }
 pop();
 
-t += 0.02; //animation speed
+t += 0.004; //animation speed
 
 }
