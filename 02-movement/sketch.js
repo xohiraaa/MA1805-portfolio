@@ -1,4 +1,4 @@
-let t = 0; // time
+let t = 0; // 
 
 function setup() {
   createCanvas(500,500);
@@ -14,7 +14,7 @@ function draw() {
     let angle = t + i * TWO_PI / 8;
     let x = cos(angle) * 120;
     let y = sin(angle) * 120;
-    fill (200,70,90);
+    fill((t * 50 + i * 40) % 360, 70, 90);
     ellipse( x, y, 24);
   }
 pop();
@@ -22,4 +22,3 @@ pop();
 t += 0.02; //animation speed
 
 }
-  
