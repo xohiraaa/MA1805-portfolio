@@ -2,7 +2,8 @@ let t = 0; // time
 
 function setup() {
   createCanvas(500,500);
-  noStroke();
+  noStroke(); 
+colorMode (HSB, 360, 100, 100, 100);
 }
 
 function draw() {
@@ -13,7 +14,7 @@ function draw() {
     let angle = t + i * TWO_PI / 8;
     let x = cos(angle) * 120;
     let y = sin(angle) * 120;
-    fill (120,255,180);
+    fill (200,70,90);
     ellipse( x, y, 24);
   }
 pop();
@@ -21,3 +22,4 @@ pop();
 t += 0.02; //animation speed
 
 }
+  
