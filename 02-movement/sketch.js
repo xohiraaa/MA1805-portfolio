@@ -6,17 +6,18 @@ function setup() {
 }
 
 function draw() {
-  background(10,12,20); //dark bg
+  background(10,12,20);
+ push();
+  translate(width / 2, height / 2); 
 
-// orbit maths (around 250,250 for now) 
 let angle = t;
-let x = 250 + cos(angle) * 120;
-let y =250 + sin(angle) * 120;
+let x = cos(angle) * 120;
+let y = sin(angle) * 120;
 
 fill(120, 255, 180); // green-ish
 ellipse(x, y, 40, 49);
+pop();
 
 t += 0.02; //animation speed
 
 }
-  
