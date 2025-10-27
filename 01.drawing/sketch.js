@@ -4,6 +4,8 @@ function setup() {
   fill(0,255,150);
   ellipse(200,200,100,100);
 }
+// accidentally typed "ellpse" , fixed to "ellipse"-
+//precision is crucial
 
 function draw() {
   background(10,15,20);
