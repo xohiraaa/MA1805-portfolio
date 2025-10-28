@@ -2,7 +2,14 @@
 Five p5.js mini artworks: rave/ bass/ forest/ glitch theme.
 
 # 1. Drawing- "Forest Speaker"
-   Green wobbling circles like sub-woofer cones in the dark.
+  What it is: 
+  Green wobbling circles like sub-woofer cones in the dark. I wanted an emoji for the moment the bass drops in a woodland rave.
+
+  How I made it: 
+  I kept the palette strictly forest green by using RGB (0,255,150) and the canvas midnight- dark (10,15,20) so the hue feels bioluminescent. Random +- 3 px shakes at 15ps gives the cones a nervous, animal twitch, the typo I made in "ellipse" became a deliberate glitch, a snapped branch in undergrowth, which I fixed after. 
+
+  Why this choice: 
+  I wanted an emoji that captures something hard to draw, the moment the bass drops in the forest. I turned three circles into trembling sub-woofers, proving that raw coordinates can evoke place and memory.
 
 # 2. Movement- - "Orbit Raver" 
 What it is: Eight neon dots glide in slow motion around an invisible centre, hues washing from green to pink. No bass this time, just the afterglow of a rave that's winding down.
