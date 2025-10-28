@@ -17,8 +17,11 @@ What it is: Eight neon dots glide in slow motion around an invisible centre, hue
 How I made it: createCanvas, translate to centre, then a single for loop that clones the dot 8 times. Each frame adds a tiny angle (0.004) so the dots move a little bit, and the hues change to the next shade. Near the beginning, I made a small mistake: the trig parts sat outside draw() and appeared as "not defined", so I fixed that error.
 
 Why this choice:
-I wanted movement that feels tired but still moving, like dancers orbiting the floor at 3AM. The looped maths becomes choreography and the slow colour shift becomes the last lights fading in the ceiling.
-3. Multiples
+I wanted movement that feels tired but still moving, like dancers orbiting the floor at 3AM. The looped maths becomes choreography and the slow colour shift becomes the last lights fading in the ceiling. I was inspired by the immersive festival Boomtown where "pastel fabrics danced in the wind, just as we did" (Broke Magazine, 2024). I wanted to incorporate a moment of collective freedom by translating this into eight HSB orbs.
 
 
-6. ddfdr 
+6. ddfdr
+
+#References 
+
+Broke Magazine. (2024). Boomtown 2024: Five Days in an Alternate Reality: https://brokemagazine.co.uk/boomtown-2024-five-days-in-an-alternate-reality/
