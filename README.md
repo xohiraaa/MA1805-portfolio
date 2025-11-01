@@ -29,8 +29,17 @@ How I made it: I used two for() loops from the "Arrays & Loops" slides to place 
 
 Why this choice: This piece contradicts my previous sketch which promised freedom through orbiting motion. Instead, the movement loops endlessly, trapping the viewer in a cycle that never resolves. It reflect's Rosalind Krauss' idea that grids symbolise order and control, the illusion of progression, but no escape (Krauss, R. 'Grids', 1979). The rave continues, no one's dancing anymore, yet everyone remains there.
 
+# 4. Media- "Amen Pulse"
+What it is: An amen break plays with a single circle expanding and shrinkinf to the rhythm. There are no dancers, no grids, just the beat itself breathing on the screen.
+
+How I made it: I loaded a jungle drum loop from freesound.org using loadSound() and linked the circle's size to the playback time. Inside draw(), map() turns the track's progress into a smooth radius change while sin() adds a subtle colour wobble. The piece only starts after a mouse click, I took this from the Notion slides where sound must be triggered by an interaction. 
+
+Why this choice: This sketch collapses the body and the code, rhythm becomes geometry. It's the opposite of my static grid as the loop is alive, pulsing with sound instead of control. The Amen break's repetition reflects rave culture's cycles of release and reset- mechanical yet human.
+
 # References 
 
 Broke Magazine. (2024). Boomtown 2024: Five Days in an Alternate Reality: https://brokemagazine.co.uk/boomtown-2024-five-days-in-an-alternate-reality/
 
 Krauss, R. (1979) 'Grids' pp. 50-64: (https://imprografika.com/wp-content/uploads/2024/08/Krauss-Grids-1979.pdf)
+
+https://freesound.org/people/Insidebeat/sounds/244342/
